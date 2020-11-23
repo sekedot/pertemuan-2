@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Registrasi Siswa</title>
+    </head>
+        <body>
+    <form id="create_account" action="/signup" method="POST">
+        <fieldset id="signup">
+            <legend style="color: black;">New Account</legend>
+            <ol>
+                <li style="color: black;">
+                    <label style="color: black;" for="first_name">Nama Lenkap</label>
+                    <input id="first_name" type="text" autofocus name="first_name">
+                </li>
+                <br>
+                <li style="color: black;">
+                    <label style="color: black;" for="last_name">Nama Panggilan</label>
+                    <input id="last_name" type="text" autofocus name="last_name">
+                </li>
+                <br>
+                <li style="color: black;">
+                    <label style="color: black;">Jenis Kelamin</label>
+                    <input type="radio" id="Laki-Laki" name="Jenis Kelamin"><label for="Laki-Laki">Laki-Laki</label>
+                    <input type="radio" id="Perempuan" name="Jenis Kelamin"><label for="Perempuan">Perempuan</label>
+                </li>
+                <br>
+                <li style="color: black;">
+                    <label style="color: black;" for="email">Email</label>
+                    <input id="email" type="text" autofocus name="email">
+                </li>
+                <br>
+                <li style="color: black;">
+                    <label style="color: black;" for="password">Password</label>
+                    <input type="password" id="password">
+                </li>
+    </form>
+                <br>
+        <div>
+                    <label style="color: black;">Alamat Kirim</label>
+        <div>
+                    <textarea name="alamat_kirim" rows="4" cols="30"></textarea>
+                </div>
+            </div>
+        <div>
+                    <label style="color: black;">Buah favorit</label>
+        <div>
+                    <select style="color: black;" name="buah">
+                        <option value="">---Pilih---</option>
+                        <option style="color: black;" value="Jeruk">Jeruk</option>
+                        <option style="color: black;" value="Mangga">Mangga</option>
+                        <option style="color: black;" value="Apel">Apel</option>
+                        <option style="color: black;" value="Naga">Naga</option>
+                        <option style="color: black;" value="Pisang">Pisang</option>
+                        <option style="color: black;" value="Semangka">Semangka</option> 
+                    </select>
+            </div>
+        </div>
+                <select>
+                    <option style="color: black;">Jakarta</option>
+                    <option style="color: black;">Depok</option>
+                    <option style="color: black;">Yogyakarta</option>
+                    <option style="color: black;">Bekasi</option>
+                    <option style="color: black;">bogor</option>
+                    <option style="color: black;">Tegal</option>
+                    <option style="color: black;">Karawang</option>
+                    <option style="color: black;">Bandung</option>
+                    <option style="color: black;">semarang</option>
+                    <option style="color: black;">garut</option>
+                    <option style="color: black;">Bali</option>
+                    <option style="color: black;">pontianak</option>
+                    <option style="color: black;">surabaya</option>
+                </select>
+                <br>
+                <button style="color: black;" type="submit">send!</button>
+    </body>
+</html> 
